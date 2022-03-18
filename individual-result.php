@@ -25,6 +25,40 @@
         <div class="col-auto">
             Menengah Atas
         </div>
+        <?php
+            $status = check_hf();
+
+            if($status == "Semua peserta telah dinilai.")
+            {
+                echo "
+                    <div class='col-auto text-white d-flex align-items-center mx-lg-4'>
+                        <div class='row rounded-pill noti-box-done'>
+                            <div class='col-auto alata check-icon'>
+                                <i class='ri-check-line'></i>
+                            </div>
+                            <div class='col-auto alata stat d-flex align-items-center'>
+                                ".$status."
+                            </div>
+                        </div>
+                    </div>
+                ";
+            }
+            else
+            {
+                echo "
+                    <div class='col-auto text-white d-flex align-items-center mx-lg-4'>
+                        <div class='row rounded-pill noti-box-pend'>
+                            <div class='col-auto alata check-icon'>
+                                <i class='ri-close-line'></i>
+                            </div>
+                            <div class='col-auto alata stat d-flex align-items-center'>
+                                Penilaian peserta belum selesai.
+                            </div>
+                        </div>
+                    </div>
+                ";
+            }
+        ?>
     </div>
 </div>
 
@@ -126,10 +160,44 @@
         <div class="col-auto">
             Menengah Rendah
         </div>
+        <?php
+            $status = check_lf();
+
+            if($status == "Semua peserta telah dinilai.")
+            {
+                echo "
+                    <div class='col-auto text-white d-flex align-items-center mx-lg-4'>
+                        <div class='row rounded-pill noti-box-done'>
+                            <div class='col-auto alata check-icon'>
+                                <i class='ri-check-line'></i>
+                            </div>
+                            <div class='col-auto alata stat d-flex align-items-center'>
+                                ".$status."
+                            </div>
+                        </div>
+                    </div>
+                ";
+            }
+            else
+            {
+                echo "
+                    <div class='col-auto text-white d-flex align-items-center mx-lg-4'>
+                        <div class='row rounded-pill noti-box-pend'>
+                            <div class='col-auto alata check-icon'>
+                                <i class='ri-close-line'></i>
+                            </div>
+                            <div class='col-auto alata stat d-flex align-items-center'>
+                                Penilaian peserta belum selesai.
+                            </div>
+                        </div>
+                    </div>
+                ";
+            }
+        ?>
     </div>
 </div>
 
-<div class="container mb-5 special-border alata">
+<div class="container mb-4 special-border alata">
 
     <div class="row column-title">
         <div class="col-2 text-center">
@@ -222,9 +290,6 @@
     ?>
 </div>
 
-<caption><?php $status = check_hf(); echo $status; ?></caption>
-
 <p class="mt-4"><?php include('size-btn-2.php') ?></p>
-
 
 <?php include('footer.php'); ?>
