@@ -567,3 +567,23 @@ header{
 .rank{
     font-size: 35px;
 }
+
+.check-icon{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.stat{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.noti-box-done{
+    padding: 3px 20px;
+    background: linear-gradient(to bottom right,rgb(0, 233, 0),rgb(0, 129, 0));
+}
+
+.noti-box-pend{
+    padding: 3px 20px;
+    background: linear-gradient(to bottom right,rgb(255, 44, 44),rgb(155, 0, 0));
+}
