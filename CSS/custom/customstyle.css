@@ -494,9 +494,25 @@ header{
     transition: 0.4s;
 }
 
-.submit-btn:hover{
-    background-color: rgb(0, 153, 255);
+.list{
+    text-decoration: none;
+    padding: 8px 25px;
+    background: white;
+    border: solid 3px rgb(0, 153, 255);
+    border-radius: 35px;
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.list:hover,.submit-btn:hover{
     color: white;
+    background: rgb(0, 153, 255);
+}
+
+.list i{
+    font-size: 25px !important;
 }
 
 .quill{
