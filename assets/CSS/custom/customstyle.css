@@ -236,7 +236,7 @@ header{
     background: url("../IMG/home.jpg");
     background-size: cover;
     position: relative;
-    height: 20rem;
+    height: 18rem;
 }
 
 #welcome:before{
