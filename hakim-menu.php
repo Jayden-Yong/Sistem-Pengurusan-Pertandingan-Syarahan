@@ -129,7 +129,7 @@
     </div>
 
     <!-- Task Display -->
-    <div class="row mt-5 mb-5 special-border" data-aos="zoom-out" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+    <div class="row mt-5 mb-5 special-border" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2100" data-aos-anchor-placement="bottom-bottom">
         <span class="MP-title mx-2">Tugas Hakim</span>
 
         <!-- Task 1 -->
