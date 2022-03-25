@@ -11,17 +11,17 @@
 ?>
 
 <!-- Banner -->
-<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav">
+<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
 	<div class="container position-relative">
-		<h1>Senarai Hakim</h1>
+		<h1 data-aos="fade-left" data-aos-duration="1000">Senarai Hakim</h1>
 	</div>
 </section>
 
-<div class="container mt-3 mb-3">
+<div class="container mt-3 mb-3" data-aos="fade-down-right" data-aos-duration="1200">
     <?php include('size-button.php'); ?>
 </div>
 
-<div class="container mb-5">
+<div class="container mb-5" data-aos="zoom-out" data-aos-duration="1400">
 
     <!-- Hakim list table -->
     <table class="table-rounded td-gray" id="size">

@@ -9,11 +9,11 @@
 
 <body class="loginbg">
 
-    <div class="container d-flex justify-content-center mt-4 mb-4">
-        <img src="CSS/IMG/logo_enhanced_transparent.png">
+    <div class="container d-flex justify-content-center mt-4 mb-4" data-aos="zoom-in-down" data-aos-duration="700">
+        <img src="assets/CSS/IMG/logo_enhanced_transparent.png">
     </div>
 
-    <div class="container">
+    <div class="container" data-aos="zoom-out" data-aos-duration="700">
         <div class="row justify-content-center">
             <div class="col-6">
                 <div class="card rounded-20">

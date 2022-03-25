@@ -17,19 +17,19 @@
 ?>
 
 <!-- Banner -->
-<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav">
+<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
 	<div class="container position-relative">
-		<h1>Kemaskini Data Peserta</h1>
+		<h1 data-aos="fade-left" data-aos-duration="1000">Kemaskini Data Peserta</h1>
 	</div>
 </section>
 
 <div class="container mt-5 edit-title">
-    <h3>Anda sedang mengemaskini data 
-        <h1><?=$_GET['nama']?></h1>
+    <h3 data-aos="fade-left" data-aos-duration="700" data-aos-delay="500">Anda sedang mengemaskini data 
+        <h1 data-aos="fade-left" data-aos-duration="800" data-aos-delay="700"><?=$_GET['nama']?></h1>
     </h3>
 </div>
 
-<div class="container mt-3 mb-5">
+<div class="container mt-5 mb-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1100">
     <div class="row">
         <div class="col-12 edit-border">
             <form action="peserta-update-process.php?nokp_lama=<?=$_GET['nokp']?>" method="POST">

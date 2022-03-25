@@ -3,13 +3,15 @@
 <head>
 	<title><?php echo $page_name; ?></title>
 
-	<!-- CSS -->
-	<link href = "CSS/Bootstrap 5/css/bootstrap.min.css" rel="stylesheet">
-	<link href = "CSS/custom/customstyle.css" rel="stylesheet">
-	<link href = "CSS/Remixicons/fonts/remixicon.css" rel="stylesheet">
+	<!-- assets/CSS -->
+	<link href = "assets/CSS/Bootstrap 5/css/bootstrap.min.css" rel="stylesheet">
+	<link href = "assets/CSS/custom/customstyle.css" rel="stylesheet">
+	<link href = "assets/CSS/Remixicons/fonts/remixicon.css" rel="stylesheet">
+	<link href = "assets/AOS/dist/aos.css" rel="stylesheet">
 
 	<!-- JS -->
 	<!--<script type="text/javascript" src = "JS/customscrpit.js"></script>-->
+	<script src="assets/AOS/dist/aos.js"></script>
 
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,3 +20,4 @@
 	
 </head>
 <body>
+	<script>AOS.init();</script>

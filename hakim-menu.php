@@ -11,10 +11,10 @@
 ?>
 
 <!-- Welcome banner -->
-<section id="welcome" class="d-flex justify-content-center align-items-center w-100 m-nav">
+<section id="welcome" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
 	<div class="container position-relative">
-		<h3>Selamat Datang,</h3>
-        <h1><?= $_SESSION['nama']?></h1>
+		<h3 data-aos="fade-left" data-aos-duration="1000">Selamat Datang,</h3>
+        <h1 data-aos="fade-left" data-aos-duration="1300"><?= $_SESSION['nama']?></h1>
 	</div>
 </section>
 
@@ -22,11 +22,11 @@
 
     <!-- Contestant info box -->
     <div class="row">
-        <div class="col-5 special-border">
+        <div class="col-5 special-border" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="700">
             <span class="MP-title mx-2">Maklumat Hakim</span>
 
             <!-- Name -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="800">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-user-line icon"></i>
                 </div>
@@ -36,7 +36,7 @@
             </div>
 
             <!-- ID -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="900">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-profile-line icon"></i>
                 </div>
@@ -46,7 +46,7 @@
             </div>
 
             <!-- ID Hakim -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="1000">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-price-tag-3-line icon"></i>
                 </div>
@@ -61,11 +61,11 @@
         <div class="col-1"></div>
 
         <!-- Contest Info -->
-        <div class="col-6 special-border">
+        <div class="col-6 special-border" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1400">
             <span class="MP-title mx-2">Maklumat Pertandingan</span>
 
             <!-- Responsible aspect -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="1500">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-auction-line icon"></i>
                 </div>
@@ -75,7 +75,7 @@
             </div>
 
             <!-- Total Contestants -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="1600">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-bar-chart-fill icon"></i>
                 </div>
@@ -85,7 +85,7 @@
             </div>
 
             <!-- Pending Results -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="1700">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <?php
                         $pending = pending();
@@ -129,7 +129,7 @@
     </div>
 
     <!-- Task Display -->
-    <div class="row mt-5 mb-5 special-border">
+    <div class="row mt-5 mb-5 special-border" data-aos="zoom-out" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
         <span class="MP-title mx-2">Tugas Hakim</span>
 
         <!-- Task 1 -->

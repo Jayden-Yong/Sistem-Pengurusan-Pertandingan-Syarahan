@@ -238,25 +238,25 @@
                     if($bil == 1)
                     {
                         echo "
-                                    <img class='medal' src='CSS/IMG/gold.jpg'>
+                                    <img class='medal' src='assets/CSS/IMG/gold.jpg'>
                         ";
                     }
                     elseif($bil == 2)
                     {
                         echo "
-                                    <img class='medal' src='CSS/IMG/silver.jpg'>
+                                    <img class='medal' src='assets/CSS/IMG/silver.jpg'>
                         ";
                     }
                     elseif($bil == 3)
                     {
                         echo "
-                                    <img class='medal' src='CSS/IMG/bronze.jpg'>
+                                    <img class='medal' src='assets/CSS/IMG/bronze.jpg'>
                         ";
                     }
                     else
                     {
                         echo "
-                                    <img class='medal' src='CSS/IMG/cert.png'>
+                                    <img class='medal' src='assets/CSS/IMG/cert.png'>
                         ";
                     }
 
@@ -407,25 +407,25 @@
                     if($bil == 1)
                     {
                         echo "
-                                    <img class='medal' src='CSS/IMG/gold.jpg'>
+                                    <img class='medal' src='assets/CSS/IMG/gold.jpg'>
                         ";
                     }
                     elseif($bil == 2)
                     {
                         echo "
-                                    <img class='medal' src='CSS/IMG/silver.jpg'>
+                                    <img class='medal' src='assets/CSS/IMG/silver.jpg'>
                         ";
                     }
                     elseif($bil == 3)
                     {
                         echo "
-                                    <img class='medal' src='CSS/IMG/bronze.jpg'>
+                                    <img class='medal' src='assets/CSS/IMG/bronze.jpg'>
                         ";
                     }
                     else
                     {
                         echo "
-                                    <img class='medal' src='CSS/IMG/cert.png'>
+                                    <img class='medal' src='assets/CSS/IMG/cert.png'>
                         ";
                     }
 

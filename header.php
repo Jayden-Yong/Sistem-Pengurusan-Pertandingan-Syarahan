@@ -1,12 +1,12 @@
 <!-- System Title -->
-<header class="fixed-top">
+<header class="fixed-top" data-aos="zoom-in-down" data-aos-duration="1000">
     <div class="row">
 
-        <div class="col-auto">
-            <img src="CSS/IMG/logo_enhanced.png" class="logo">
+        <div class="col-3">
+            <img src="assets/CSS/IMG/logo_enhanced.png" class="logo">
         </div>
 
-        <div class="d-flex align-items-center col-5">
+        <div class="d-flex align-items-center col-6">
             <nav class="nav-menu">
                 <ul>
                     <!-- User Menus -->
@@ -48,11 +48,9 @@
             if(empty($_SESSION['tahap']))
             {
                 echo "
-                    <div class='col-auto d-flex align-items-center'>
-                        <div class='d-inline'>
+                    <div class='col-3 d-flex align-items-center justify-content-end'>
                         <a class='btn btn-success fw-bold p-10 rounded-10' href='peserta-signup-form.php'>Daftar Peserta Baharu</a>
-                        <a class='btn btn-primary fw-bold p-10 rounded-10 mx-2' href='login-form.php'>Log Masuk</a>
-                        </div>
+                        <a class='btn btn-primary fw-bold p-10 rounded-10 mx-3' href='login-form.php'>Log Masuk</a>
                     </div>
                 ";
             }

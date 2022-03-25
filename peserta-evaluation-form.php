@@ -21,9 +21,9 @@
 ?>
 
 <!-- Banner -->
-<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav">
+<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
 	<div class="container position-relative">
-		<h1><?=$_SESSION['idaspek']?> - <?=$_SESSION['aspek']?></h1>
+		<h1 data-aos="fade-left" data-aos-duration="1000"><?=$_SESSION['idaspek']?> - <?=$_SESSION['aspek']?></h1>
 	</div>
 </section>
 
@@ -38,13 +38,13 @@
 
 <div class="container mt-5 edit-title">
     <div class="row">
-        <h3>Anda sedang menilai </h3>
+        <h3 data-aos="fade-left" data-aos-duration="700" data-aos-delay="500">Anda sedang menilai </h3>
     </div>
     <div class="row">
         <div class="col-8">
-            <h1><?=$_GET['nama']?></h1>
+            <h1 data-aos="fade-left" data-aos-duration="700" data-aos-delay="1000"><?=$_GET['nama']?></h1>
         </div>
-        <div class="col-4 d-flex align-items-center justify-content-end">
+        <div class="col-4 d-flex align-items-center justify-content-end" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="800">
             <a class="list" href="peserta-evaluation.php">
                 <div class="row">
                     <div class="col-2">
@@ -61,7 +61,7 @@
 
 <div class="container mt-4 mb-5">
     <form action="peserta-evaluation-process.php?nokp=<?=$_GET['nokp']?>&id=<?=$_GET['id']?>" method="POST">
-        <table class="table-rounded td-gray">
+        <table class="table-rounded td-gray" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1500">
             <tr>
                 <td>Nama Peserta</td>
                 <td><?=$_GET['nama']?></td>
@@ -77,7 +77,7 @@
         </table>
         
         <div class="row mt-5">
-            <div class="col-7 edit-border edit-title">
+            <div class="col-7 edit-border edit-title" data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
                 <h1>Penilaian</h1>
 
                 <div class="row mt-3 mb-3">
@@ -154,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-5 d-flex justify-content-center">
+            <div class="col-5 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
                 <i class="ri-quill-pen-line quill"></i>
             </div>
         </div>
