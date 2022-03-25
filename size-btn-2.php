@@ -29,10 +29,20 @@
         <div class="col-auto d-flex align-items-center">
             <span class="size">Ubah saiz tulisan</span>
         </div>
-        <div class="col-3">
-            <input class="size-btn1" name="reSize2" type="button" value="&nbsp;-&nbsp;" onclick="altersize(-1)" />
-            <input class="size-btn2" name="reSize1" type="button" value="RESET" onclick="altersize(2)" />
-            <input class="size-btn3" name="reSize"  type="button" value="&nbsp;+&nbsp;" onclick="altersize(1)" />
+        <div class="col-auto">
+            <button class="size-btn d-flex align-items-center" onclick="altersize(-1)">
+                <i class="ri-subtract-line"></i>
+            </button>
+        </div>
+        <div class="col-auto">
+            <button class="size-btn d-flex align-items-center" onclick="altersize(1)">
+                <i class="ri-add-line"></i>
+            </button>
+        </div>
+        <div class="col-auto">
+            <button class="size-btn d-flex align-items-center" onclick="altersize(2)">
+                <i class="ri-restart-line"></i>
+            </button>
         </div>
     </div>
 </div>

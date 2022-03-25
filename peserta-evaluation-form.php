@@ -37,9 +37,26 @@
 ?>
 
 <div class="container mt-5 edit-title">
-    <h3>Anda sedang menilai 
-        <h1><?=$_GET['nama']?></h1>
-    </h3>
+    <div class="row">
+        <h3>Anda sedang menilai </h3>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <h1><?=$_GET['nama']?></h1>
+        </div>
+        <div class="col-4 d-flex align-items-center justify-content-end">
+            <a class="list" href="peserta-evaluation.php">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="ri-file-list-2-line"></i>
+                    </div>
+                    <div class="col-auto d-flex align-items-center">
+                        Senarai Nama Peserta
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
 </div>
 
 <div class="container mt-4 mb-5">
@@ -143,7 +160,5 @@
         </div>
     </form>
 </div>
-
-<a href="peserta-evaluation.php">Senarai Nama Peserta</a>
 
 <?php include('footer.php'); ?>
