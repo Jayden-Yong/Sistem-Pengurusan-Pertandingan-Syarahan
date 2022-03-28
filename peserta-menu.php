@@ -23,10 +23,10 @@
 ?>
 
 <!-- Welcome banner -->
-<section id="welcome" class="d-flex justify-content-center align-items-center w-100 m-nav">
+<section id="welcome" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
 	<div class="container position-relative">
-		<h3>Selamat Datang,</h3>
-        <h1><?= $_SESSION['nama']?></h1>
+		<h3 data-aos="fade-left" data-aos-duration="1000">Selamat Datang,</h3>
+        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"><?= $_SESSION['nama']?></h1>
 	</div>
 </section>
 
@@ -34,12 +34,12 @@
 
     <!-- Contestant info box -->
     <div class="row">
-        <div class="col-5 special-border">
+        <div class="col-5 special-border" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="700">
             <span class="MP-title mx-2">Maklumat Peserta</span>
 
             <!-- Name -->
-            <div class="row mb-2 mx-1">
-                <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="800">
+                <div class="col-1 fs-4 d-flex align-items-center justify-content-center" >
                     <i class="ri-user-line icon"></i>
                 </div>
                 <div class="col-auto fs-4 d-flex align-items-center justify-content-center">
@@ -48,7 +48,7 @@
             </div>
 
             <!-- ID -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="900">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-profile-line icon"></i>
                 </div>
@@ -58,7 +58,7 @@
             </div>
 
             <!-- Class -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="1000">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-home-line icon"></i>
                 </div>
@@ -73,11 +73,11 @@
         <div class="col-1"></div>
 
         <!-- Contest Info -->
-        <div class="col-6 special-border">
+        <div class="col-6 special-border" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1400">
             <span class="MP-title mx-2">Maklumat Pertandingan</span>
 
             <!-- Contest Group -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="1500">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-trophy-line icon"></i>
                 </div>
@@ -87,7 +87,7 @@
             </div>
 
             <!-- Total Contestants -->
-            <div class="row mb-2 mx-1">
+            <div class="row mb-2 mx-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="1600">
                 <div class="col-1 fs-4 d-flex align-items-center justify-content-center">
                     <i class="ri-bar-chart-fill icon"></i>
                 </div>
@@ -110,9 +110,10 @@
         {
         # Competition status display
         echo "
-            <div class='container mt-5 mb-5 status-danger p-2'>
-                <div class='text-center'>
+            <div class='container mt-5 mb-5 status-danger p-2' data-aos='zoom-out' data-aos-duration='1000' data-aos-delay='2100'>
+                <div class='text-center status'>
                     ".$status."
+                </div>
             </div>
         ";
         }
@@ -122,7 +123,7 @@
         {
             # Competition status display
             echo "
-                <div class='container mt-5 mb-5 status-success p-2'>
+                <div class='container mt-5 mb-5 status-success p-2' data-aos='zoom-out' data-aos-duration='1000' data-aos-delay='2100'>
                     <div class='text-center status'>
                         ".$status."
                     </div>
@@ -152,7 +153,7 @@
                         # Achievement display
                         echo "
                             <div class='container mb-5'>
-                                <div class='row'>
+                                <div class='row' data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                                     <div class='col-7 special-border text-center'>
                                         <span class='MP-title mx-2 d-block'>Keputusan</span>
 
@@ -167,7 +168,7 @@
                         # Achievement display
                         echo "
                             <div class='container mb-5'>
-                                <div class='row'>
+                                <div class='row' data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                                     <div class='col-7 special-border text-center'>
                                         <span class='MP-title mx-2 d-block'>Keputusan</span>
                                         
@@ -182,7 +183,7 @@
                         # Achievement display
                         echo "
                             <div class='container mb-5'>
-                                <div class='row'>
+                                <div class='row' data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                                     <div class='col-7 special-border text-center'>
                                         <span class='MP-title mx-2 d-block'>Keputusan</span>
                                         <div class='row mx-2 justify-content-center'>
@@ -196,7 +197,7 @@
                         # Achievement display
                         echo "
                             <div class='container mb-5'>
-                                <div class='row'>
+                                <div class='row' data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                                     <div class='col-7 special-border text-center'>
                                         <span class='MP-title mx-2 d-block'>Keputusan</span>
                                         <div class='row mx-2 justify-content-center'>
@@ -231,7 +232,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class='col-5 d-flex align-items-center justify-content-center'>
+
+                                <!-- Medal Display -->
+                                <div class='col-5 d-flex align-items-center justify-content-center' data-aos='zoom-out-left' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                     ";
 
                     # Medal display
@@ -279,19 +282,20 @@
         {
             # Competition status display
             echo "
-                <div class='container mt-5 mb-5 status-danger p-2'>
-                    <div class='text-center'>
+                <div class='container mt-5 mb-5 status-danger p-2' data-aos='zoom-out' data-aos-duration='1000' data-aos-delay='2100'>
+                    <div class='text-center status'>
                         ".$status."
+                    </div>
                 </div>
             ";
         }
 
         # If grading is complete
-        if($status = "Semua peserta telah dinilai.")
+        if($status == "Semua peserta telah dinilai.")
         {
             # Competition status display
             echo "
-                <div class='container mt-5 mb-5 status-success p-2'>
+                <div class='container mt-5 mb-5 status-success p-2' data-aos='zoom-out' data-aos-duration='1000' data-aos-delay='2100'>
                     <div class='text-center status'>
                         ".$status."
                     </div>
@@ -322,7 +326,7 @@
                         echo "
                             <div class='container mb-5'>
                                 <div class='row'>
-                                    <div class='col-7 special-border text-center'>
+                                    <div class='col-7 special-border text-center' data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                                         <span class='MP-title mx-2 d-block'>Keputusan</span>
 
                                         <div class='row mx-2 justify-content-center'>
@@ -337,7 +341,7 @@
                         echo "
                             <div class='container mb-5'>
                                 <div class='row'>
-                                    <div class='col-7 special-border text-center'>
+                                    <div class='col-7 special-border text-center' data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                                         <span class='MP-title mx-2 d-block'>Keputusan</span>
                                         
                                         <div class='row mx-2 justify-content-center'>
@@ -352,7 +356,7 @@
                         echo "
                             <div class='container mb-5'>
                                 <div class='row'>
-                                    <div class='col-7 special-border text-center'>
+                                    <div class='col-7 special-border text-center' data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                                         <span class='MP-title mx-2 d-block'>Keputusan</span>
                                         <div class='row mx-2 justify-content-center'>
                                             <div class='col-auto bronze rounded-10'>
@@ -366,7 +370,7 @@
                         echo "
                             <div class='container mb-5'>
                                 <div class='row'>
-                                    <div class='col-7 special-border text-center'>
+                                    <div class='col-7 special-border text-center' data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                                         <span class='MP-title mx-2 d-block'>Keputusan</span>
                                         <div class='row mx-2 justify-content-center'>
                                             <div class='col-auto normal rounded-10'>
@@ -400,7 +404,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class='col-5 d-flex align-items-center justify-content-center'>
+                                <div class='col-5 d-flex align-items-center justify-content-center' data-aos='zoom-out-left' data-aos-duration='1000' data-aos-anchor-placement='bottom-bottom'>
                     ";
 
                     # Medal display

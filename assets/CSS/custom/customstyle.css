@@ -579,3 +579,13 @@ header{
     padding: 3px 20px;
     background: linear-gradient(to bottom right,rgb(255, 44, 44),rgb(155, 0, 0));
 }
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
