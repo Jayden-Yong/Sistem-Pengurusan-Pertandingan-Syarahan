@@ -11,14 +11,14 @@
 ?>
 
 <!-- Banner -->
-<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
+<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="zoom-in" data-aos-duration="800">
 	<div class="container position-relative">
-		<h1 data-aos="fade-left" data-aos-duration="1000">Muat Naik Data Peserta</h1>
+		<h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">Muat Naik Data Peserta</h1>
 	</div>
 </section>
 
 <!-- Form for file upload -->
-<div class="container mt-5 mb-5" data-aos="zoom-out" data-aos-duration="1000">
+<div class="container mt-5 mb-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
     <div class="row">
         <div class="col-12 edit-border edit-title upload">
             <form action="peserta-upload-process.php" method="POST" enctype="multipart/form-data">

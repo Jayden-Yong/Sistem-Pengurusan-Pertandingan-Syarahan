@@ -12,14 +12,14 @@
 ?>
 
 <!-- Banner -->
-<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
+<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="zoom-in" data-aos-duration="800">
 	<div class="container position-relative">
-		<h1 data-aos="fade-left" data-aos-duration="1000">Senarai Peserta</h1>
+		<h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">Senarai Peserta</h1>
 	</div>
 </section>
 
 <!-- Form for filtering competition group -->
-<div class="container mt-5" data-aos="zoom-out" data-aos-duration="1000">
+<div class="container mt-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
     <div class="row justify-content-center">
         <div class="col-6">
             <form action="" method="POST">
@@ -42,11 +42,11 @@
     </div>
 </div>
 
-<div class="container mb-3 mt-4" data-aos="fade-down-right" data-aos-duration="1200">
+<div class="container mb-3 mt-4" data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="1500">
     <?php include('size-button.php'); ?>
 </div>
 
-<div class="container mb-5" data-aos="zoom-out" data-aos-duration="1400">
+<div class="container mb-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1500">
     <table class="table-rounded td-gray" id="size">
         <tr>
             <td>Nama</td>

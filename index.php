@@ -10,7 +10,7 @@
 ?>
 
 <!-- Login and Registeration menu -->
-<section id="tnc" class="d-flex justify-content-center align-items-center w-100 m-nav mb-5" data-aos="fade-down" data-aos-duration="1000">
+<section id="tnc" class="d-flex justify-content-center align-items-center w-100 m-nav mb-5" data-aos="zoom-in" data-aos-duration="800">
 	<div class="container position-relative">
 		<h1>Syarat Pertandingan</h1>
 	</div>

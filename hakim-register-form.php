@@ -10,17 +10,17 @@
 ?>
 
 <!-- Banner -->
-<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav">
+<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="zoom-in" data-aos-duration="800">
 	<div class="container position-relative">
-		<h1>Pendaftaran Hakim Baru</h1>
+		<h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">Pendaftaran Hakim Baru</h1>
 	</div>
 </section>
 
-<div class="container mt-5 edit-title">
+<div class="container mt-5 edit-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
     <h3>Sila masukkan maklumat hakim baru.</h3>
 </div>
 
-<div class="container mt-3 mb-5">
+<div class="container mt-3 mb-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1500">
     <div class="row">
         <div class="col-12 edit-border">
             <form action="hakim-register-process.php" method="POST">

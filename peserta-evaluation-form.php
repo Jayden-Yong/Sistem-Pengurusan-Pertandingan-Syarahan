@@ -21,9 +21,9 @@
 ?>
 
 <!-- Banner -->
-<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
+<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="zoom-in" data-aos-duration="800">
 	<div class="container position-relative">
-		<h1 data-aos="fade-left" data-aos-duration="1000"><?=$_SESSION['idaspek']?> - <?=$_SESSION['aspek']?></h1>
+		<h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600"><?=$_SESSION['idaspek']?> - <?=$_SESSION['aspek']?></h1>
 	</div>
 </section>
 
@@ -38,13 +38,13 @@
 
 <div class="container mt-5 edit-title">
     <div class="row">
-        <h3 data-aos="fade-left" data-aos-duration="700" data-aos-delay="500">Anda sedang menilai </h3>
+        <h3 data-aos="fade-left" data-aos-duration="700" data-aos-delay="1000">Anda sedang menilai </h3>
     </div>
     <div class="row">
         <div class="col-8">
-            <h1 data-aos="fade-left" data-aos-duration="700" data-aos-delay="1000"><?=$_GET['nama']?></h1>
+            <h1 data-aos="fade-left" data-aos-duration="700" data-aos-delay="1500"><?=$_GET['nama']?></h1>
         </div>
-        <div class="col-4 d-flex align-items-center justify-content-end" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="800">
+        <div class="col-4 d-flex align-items-center justify-content-end" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1500">
             <a class="list" href="peserta-evaluation.php">
                 <div class="row">
                     <div class="col-2">
@@ -61,7 +61,7 @@
 
 <div class="container mt-4 mb-5">
     <form action="peserta-evaluation-process.php?nokp=<?=$_GET['nokp']?>&id=<?=$_GET['id']?>" method="POST">
-        <table class="table-rounded td-gray" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1500">
+        <table class="table-rounded td-gray" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2000">
             <tr>
                 <td>Nama Peserta</td>
                 <td><?=$_GET['nama']?></td>

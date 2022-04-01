@@ -23,7 +23,7 @@
 ?>
 
 <!-- Welcome banner -->
-<section id="welcome" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
+<section id="welcome" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="zoom-in" data-aos-duration="800">
 	<div class="container position-relative">
 		<h3 data-aos="fade-left" data-aos-duration="1000">Selamat Datang,</h3>
         <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"><?= $_SESSION['nama']?></h1>

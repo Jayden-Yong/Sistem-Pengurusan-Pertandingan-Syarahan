@@ -11,14 +11,14 @@
     include('header.php');
 ?>
 
-<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="fade-down" data-aos-duration="1000">
+<section id="list-banner" class="d-flex justify-content-center align-items-center w-100 m-nav" data-aos="zoom-in" data-aos-duration="800">
 	<div class="container position-relative">
-		<h1 data-aos="fade-left" data-aos-duration="1000">Keputusan</h1>
+		<h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">Keputusan</h1>
 	</div>
 </section>
 
-<div class="container mt-5" data-aos="fade-down-right" data-aos-duration="1000">
-    <div class="row group alata">
+<div class="container mt-5">
+    <div class="row group alata" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
         <div class="col-1">
             <i class=" ri-trophy-line"></i>
         </div>
@@ -31,7 +31,7 @@
             if($status == "Semua peserta telah dinilai.")
             {
                 echo "
-                    <div class='col-auto text-white d-flex align-items-center mx-lg-4' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='1200'>
+                    <div class='col-auto text-white d-flex align-items-center mx-lg-4' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='2200'>
                         <div class='row rounded-pill noti-box-done'>
                             <div class='col-auto alata check-icon'>
                                 <i class='ri-check-line'></i>
@@ -46,7 +46,7 @@
             else
             {
                 echo "
-                    <div class='col-auto text-white d-flex align-items-center mx-lg-4' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='1200'>
+                    <div class='col-auto text-white d-flex align-items-center mx-lg-4' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='2200'>
                         <div class='row rounded-pill noti-box-pend'>
                             <div class='col-auto alata check-icon'>
                                 <i class='ri-close-line'></i>
@@ -62,7 +62,7 @@
     </div>
 </div>
 
-<div class="container mt-4 mb-5 special-border alata" data-aos="zoom-out" data-aos-duration="1000">
+<div class="container mt-4 mb-5 special-border alata" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1400">
 
     <div class="row column-title">
         <div class="col-2 text-center">
@@ -290,6 +290,6 @@
     ?>
 </div>
 
-<p class="mt-4"><?php include('size-btn-2.php') ?></p>
+<div class="container mt-2 mb-5" data-aos="zoom-out" data-aos-duration="1000"><?php include('size-btn-2.php') ?></div>
 
 <?php include('footer.php'); ?>
