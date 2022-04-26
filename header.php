@@ -6,7 +6,7 @@
             <img src="assets/CSS/IMG/logo_enhanced.png" class="logo">
         </div>
 
-        <div class="d-flex align-items-center col-xl-7 col-md-6">
+        <div class="d-flex align-items-center col-xl-6 col-md-6">
             <nav class="nav-menu">
                 <ul>
                     <!-- User Menus -->
