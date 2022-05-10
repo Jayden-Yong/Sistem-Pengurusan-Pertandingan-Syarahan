@@ -21,10 +21,10 @@
 
 	<!-- Term 1 -->
 	<div class="row">
-		<div class="col-6 d-flex justify-content-center" data-aos="zoom-out-right" data-aos-duration="1200" data-aos-anchor-placement="bottom-bottom">
+		<div class="col-6 d-flex justify-content-center" data-aos="zoom-out-right" data-aos-duration="1200" data-aos-anchor-placement="center-bottom">
 			<img class="img1" src="assets/CSS/IMG/1person.jpg">
 		</div>
-		<div class="col-6 d-flex align-items-center" data-aos="fade-left" data-aos-duration="1200" data-aos-anchor-placement="bottom-bottom">
+		<div class="col-6 d-flex align-items-center" data-aos="fade-left" data-aos-duration="1200" data-aos-anchor-placement="center-bottom">
 			<div class="desc">
 				<p>Seorang peserta hanya boleh menghantar <span>1 penyertaan</span> sahaja.</p>
 			</div>
